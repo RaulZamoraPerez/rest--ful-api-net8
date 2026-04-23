@@ -1,0 +1,48 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build Results
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+build/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+.nuget/
+
+# Logs
+*.log
+logs/
+
+# OS Files
+[Tt]humbs.db
+*.DS_Store
+
+# Publish
+publish/
+
+# Secrets & Configuration
+.env
+secrets.json
+appsettings.Development.json
+
+# Others
+node_modules/
+dist/
+.vscode/settings.json
+.idea/
+
+# Visual Studio Code
+.vscode/
+!.vscode/extensions.json
+
+# Resharper
+.idea/
+*.sln.iml

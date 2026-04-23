@@ -1,27 +1,27 @@
-# 🚀 Clean Architecture Ecommerce API
+#  Clean Architecture Ecommerce API
 
 API RESTful desarrollada con **ASP.NET Core 8.0** y **Entity Framework Core** implementando **Clean Architecture** para gestión de un sistema de ecommerce.
 
-## ✨ Características Principales
+##  Características Principales
 
-- ✅ **Clean Architecture** - Separación de capas (Presentation, Application, Infrastructure, Domain)
-- ✅ **SQL Server** con Docker
-- ✅ **JWT Authentication** - Autenticación basada en tokens
-- ✅ **ASP.NET Identity** - Gestión de usuarios y roles
-- ✅ **API Versioning** - Soporte para múltiples versiones (v1, v2)
-- ✅ **Swagger/OpenAPI** - Documentación interactiva
-- ✅ **AutoMapper** - Mapeo de DTOs
-- ✅ **Response Caching** - Optimización de performance
-- ✅ **CORS** - Configurado para desarrollo y producción
+-  **Clean Architecture** - Separación de capas (Presentation, Application, Infrastructure, Domain)
+- **SQL Server** con Docker
+-  **JWT Authentication** - Autenticación basada en tokens
+-  **ASP.NET Identity** - Gestión de usuarios y roles
+-  **API Versioning** - Soporte para múltiples versiones (v1, v2)
+-  **Swagger/OpenAPI** - Documentación interactiva
+-  **AutoMapper** - Mapeo de DTOs
+-  **Response Caching** - Optimización de performance
+-  **CORS** - Configurado para desarrollo y producción
 
-## 📋 Requisitos Previos
+## Requisitos Previos
 
 - [.NET 8.0 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
 - [Docker Desktop](https://www.docker.com/products/docker-desktop)
 - [Git](https://git-scm.com)
 - SQL Server (disponible vía Docker)
 
-## 🚀 Configuración Inicial
+##  Configuración Inicial
 
 ### 1. Clonar el repositorio
 
@@ -74,9 +74,9 @@ dotnet run
 ```
 
 La API estará disponible en:
-- 🌐 **URL**: `http://localhost:5078`
-- 📚 **Swagger**: `http://localhost:5078/swagger`
-- 🏠 **Home**: `http://localhost:5078/index.html`
+-  **URL**: `http://localhost:5078`
+-  **Swagger**: `http://localhost:5078/swagger`
+-  **Home**: `http://localhost:5078/index.html`
 
 ## 🗄️ Base de Datos - Docker
 
@@ -371,23 +371,3 @@ dotnet watch run
 dotnet test
 ```
 
-## 🤝 Contribución
-
-1. Crea una rama para tu feature: `git checkout -b feature/nueva-funcionalidad`
-2. Haz commit de tus cambios: `git commit -am 'Agregar nueva funcionalidad'`
-3. Push a la rama: `git push origin feature/nueva-funcionalidad`
-4. Abre un Pull Request
-
-## 📄 Licencia
-
-Este proyecto está bajo licencia MIT.
-
-## 📞 Contacto
-
-Clean Architecture Team
-- Email: clean@architecture.com
-- GitHub: [tu-usuario]
-
----
-
-**Última actualización**: 22 de abril de 2026 ✅
